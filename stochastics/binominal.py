@@ -90,7 +90,7 @@ class SimpleBinominal(Binominal):
         print(f"P({lower_border}<=X<={upper_border}) = {res} =~ {round(res*100, 2)}%")
         return res
 
-    def sim_get_sigma_distribution(self, z: float= 1) -> float:
+    def sim_get_sigma_distribution(self, z: float = 1) -> float:
         res = round(super(SimpleBinominal, self).get_sigma_distribution(z), 4)
         print(f"{str(func)} = {round(res*100, 2)}%")
         return res
@@ -99,6 +99,7 @@ class SimpleBinominal(Binominal):
 if __name__ == '__main__':
     func = Binominal(1000, 0.5)
     print(func.get_all())
+    print(func(5))
     # # func2 = Binominal(100, 0.5)
     # # func3 = Binominal(101, 0.5)
     # print(func.binompdf(50))
