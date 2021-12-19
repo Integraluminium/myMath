@@ -11,7 +11,7 @@ setup(
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
     packages=find_packages(),
-    install_requires=['sys', 'math'],
+    # install_requires=['sys', 'math'],
     keywords=["myMath", "first package"],
     classifiers=[
         "Development Status :: 3 - Alpha",
