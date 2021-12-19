@@ -1,0 +1,14 @@
+setup.py
+myMath.egg-info/PKG-INFO
+myMath.egg-info/SOURCES.txt
+myMath.egg-info/dependency_links.txt
+myMath.egg-info/top_level.txt
+myMathModule/__init__.py
+myMathModule/binominal.py
+myMathModule/myAlgebra.py
+myMathModule/stochastics/__init__.py
+myMathModule/stochastics/binominal.py
+myMathModule/stochastics/combination.py
+myMathModule/stochastics/visualisation.py
+myMathModule/tools/__init__.py
+myMathModule/tools/basic.py
