@@ -1,0 +1,13 @@
+README.md
+setup.py
+myMath.egg-info/PKG-INFO
+myMath.egg-info/SOURCES.txt
+myMath.egg-info/dependency_links.txt
+myMath.egg-info/requires.txt
+myMath.egg-info/top_level.txt
+stochastics/__init__.py
+stochastics/binominal.py
+stochastics/combination.py
+stochastics/visualisation.py
+tools/__init__.py
+tools/basic.py
