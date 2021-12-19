@@ -1,4 +1,4 @@
-from stochastics.binominal import Binominal
+from myMathModule.stochastics.binominal import Binominal
 import plotly.express as px
 import pandas as pd
 from collections import defaultdict

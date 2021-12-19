@@ -1,4 +1,4 @@
-from tools.basic import factorial
+from myMathModule.tools.basic import factorial
 
 
 def ncr(n: int, k: int) -> int:  # n Choose r   -> math.comb
